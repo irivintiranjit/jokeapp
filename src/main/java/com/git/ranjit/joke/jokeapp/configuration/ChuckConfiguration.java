@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author Ranjit on 2020-06-28
  */
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
-    @Bean
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
         return new ChuckNorrisQuotes();
     }
